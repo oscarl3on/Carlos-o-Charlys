@@ -1,6 +1,6 @@
 .header-h {
         font-size: 35px;
-   color: #FFB03B;
+   color: #228b22;
     font-size: 46px;
     font-family: 'Satisfy', sans-serif;
     font-weight: 300;
@@ -33,7 +33,8 @@ ul
   font-family:Montserrat,arial;
   text-transform:uppercase;
   letter-spacing:1px;
-  color:#FFB03B;
+  color:#228b22;
+  font-weight: bold;
   }
 .menu-restaurant .menu-line
 {
@@ -65,9 +66,9 @@ ul
 }
 #menu-filters ul li a.active, #menu-filters ul li a:hover
 {
-  background: #FFB03B;
+  background: #228b22;
   color:#fff;
-  border:1px solid #FFB03B;
+  border:1px solid #228b22;
 }
 #menu-filters ul li 
 {
@@ -75,7 +76,7 @@ ul
   color:#fff;
   text-transform:capitalize;
   letter-spacing:1px;
-  margin-botttom:40px;
+  margin-bottom:40px;
 }
 #menu-filters ul li a
 {
