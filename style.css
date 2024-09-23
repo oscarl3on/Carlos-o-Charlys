@@ -247,3 +247,29 @@ background-position: center bottom, center -webkit-calc(100% - 1px);
 #sendmessage.show, #errormessage.show, .show {
     display:block;
 }
+
+@media (min-width: 20px) and (max-width: 450px) {
+  .menu-restaurant {
+    width: 100%;
+  }
+  .header-h {
+    font-size: 35px;
+  }
+  .header-p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 768px) {
+  .menu-restaurant {
+    width: 75%;
+  }
+  .header-h {
+    font-size: 40px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
